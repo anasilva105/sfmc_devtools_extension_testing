@@ -1,0 +1,233 @@
+[
+    {
+        "PartnerKey": "",
+        "ID": 7281698,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 0,
+        "Name": "Accenture SFMC Global",
+        "IsActive": 1,
+        "ParentName": "",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 7316951,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "Retail Test",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 7330565,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "Best Practice - internal Demo",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 7330566,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "Certification Training",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 7330928,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "MCDEV Training - DEV",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 7330929,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7330928,
+        "Name": "MCDEV Training - Prod 1",
+        "IsActive": 1,
+        "ParentName": "MCDEV Training - DEV",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 7330930,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7330928,
+        "Name": "MCDEV Training - Prod 2",
+        "IsActive": 1,
+        "ParentName": "MCDEV Training - DEV",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 7331046,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "Recruiting ASGR _parent_",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518000396,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "Development BU - Global Templates",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518000397,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 518000396,
+        "Name": "United Kingdom",
+        "IsActive": 1,
+        "ParentName": "Development BU - Global Templates",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518000398,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 518000396,
+        "Name": "Italy",
+        "IsActive": 1,
+        "ParentName": "Development BU - Global Templates",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518001150,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "MCDEV -Demo BUILD",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518001151,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 518001150,
+        "Name": "MCDEV -Demo TEST",
+        "IsActive": 1,
+        "ParentName": "MCDEV -Demo BUILD",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518001158,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 518001150,
+        "Name": "MCDEV-Demo Germany",
+        "IsActive": 1,
+        "ParentName": "MCDEV -Demo BUILD",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518001159,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 518001150,
+        "Name": "MCDEV-Demo France",
+        "IsActive": 1,
+        "ParentName": "MCDEV -Demo BUILD",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518001160,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 518001150,
+        "Name": "MCDEV -Demo Netherlands",
+        "IsActive": 1,
+        "ParentName": "MCDEV -Demo BUILD",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518001192,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "Email Testing BU",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518003624,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "Bogdan Enache",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518003921,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7281698,
+        "Name": "SFMC2Slack",
+        "IsActive": 1,
+        "ParentName": "Accenture SFMC Global",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518005181,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 518001150,
+        "Name": "MCDEV asset demo source",
+        "IsActive": 1,
+        "ParentName": "MCDEV -Demo BUILD",
+        "Subscription": ""
+    },
+    {
+        "PartnerKey": "",
+        "ID": 518005426,
+        "ObjectID": "",
+        "AccountType": "None",
+        "ParentID": 7330928,
+        "Name": "MCDEV Training - QA",
+        "IsActive": 1,
+        "ParentName": "MCDEV Training - DEV",
+        "Subscription": ""
+    }
+]

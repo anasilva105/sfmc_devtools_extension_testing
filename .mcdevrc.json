@@ -1,0 +1,186 @@
+{
+    "credentials": {
+        "AccentureLearningInstance": {
+            "eid": 7281698,
+            "businessUnits": {
+                "_ParentBU_": 7281698,
+                "Best_Practice_internal_Demo": 7330565,
+                "Bogdan_Enache": 518003624,
+                "Certification_Training": 7330566,
+                "Development_BU_Global_Templates": 518000396,
+                "Email_Testing_BU": 518001192,
+                "Italy": 518000398,
+                "MCDEV_Demo_BUILD": 518001150,
+                "MCDEV_Demo_Netherlands": 518001160,
+                "MCDEV_Demo_TEST": 518001151,
+                "MCDEV_asset_demo_source": 518005181,
+                "MCDEV_Training_DEV": 7330928,
+                "MCDEV_Training_Prod_1": 7330929,
+                "MCDEV_Training_Prod_2": 7330930,
+                "MCDEV_Training_QA": 518005426,
+                "MCDEVDemo_France": 518001159,
+                "MCDEVDemo_Germany": 518001158,
+                "Recruiting_ASGR_parent_": 7331046,
+                "Retail_Test": 7316951,
+                "SFMC2Slack": 518003921,
+                "United_Kingdom": 518000397
+            }
+        }
+    },
+    "options": {
+        "deployment": {
+            "commitHistory": 10,
+            "sourceTargetMapping": {
+                "deployment-source": "deployment-target"
+            },
+            "targetBranchBuMapping": {
+                "release/*": "MySandbox/QA-DE",
+                "master": [
+                    "MyProduction/PROD-DE",
+                    "MyProduction/PROD-NL"
+                ]
+            }
+        },
+        "documentType": "md",
+        "documentStandardRoles": false,
+        "exclude": {},
+        "include": {},
+        "serverTimeOffset": -6
+    },
+    "directories": {
+        "businessUnits": "businessUnits/",
+        "deploy": "deploy/",
+        "docs": "docs/",
+        "retrieve": "retrieve/",
+        "template": "template/",
+        "templateBuilds": [
+            "retrieve/",
+            "deploy/"
+        ]
+    },
+    "markets": {
+        "_ParentBU_": {
+            "suffix": "__ParentBU_"
+        },
+        "Best_Practice_internal_Demo": {
+            "suffix": "_Best_Practice_internal_Demo"
+        },
+        "Bogdan_Enache": {
+            "suffix": "_Bogdan_Enache"
+        },
+        "Certification_Training": {
+            "suffix": "_Certification_Training"
+        },
+        "Development_BU_Global_Templates": {
+            "suffix": "_Development_BU_Global_Templates"
+        },
+        "Email_Testing_BU": {
+            "suffix": "_Email_Testing_BU"
+        },
+        "Italy": {
+            "suffix": "_Italy"
+        },
+        "MCDEV_Demo_BUILD": {
+            "suffix": "_MCDEV_Demo_BUILD"
+        },
+        "MCDEV_Demo_Netherlands": {
+            "suffix": "_MCDEV_Demo_Netherlands"
+        },
+        "MCDEV_Demo_TEST": {
+            "suffix": "_MCDEV_Demo_TEST"
+        },
+        "MCDEV_asset_demo_source": {
+            "suffix": "_MCDEV_asset_demo_source"
+        },
+        "MCDEV_Training_DEV": {
+            "suffix": "_MCDEV_Training_DEV"
+        },
+        "MCDEV_Training_Prod_1": {
+            "suffix": "_MCDEV_Training_Prod_1"
+        },
+        "MCDEV_Training_Prod_2": {
+            "suffix": "_MCDEV_Training_Prod_2"
+        },
+        "MCDEV_Training_QA": {
+            "suffix": "_MCDEV_Training_QA"
+        },
+        "MCDEVDemo_France": {
+            "suffix": "_MCDEVDemo_France"
+        },
+        "MCDEVDemo_Germany": {
+            "suffix": "_MCDEVDemo_Germany"
+        },
+        "Recruiting_ASGR_parent_": {
+            "suffix": "_Recruiting_ASGR_parent_"
+        },
+        "Retail_Test": {
+            "suffix": "_Retail_Test"
+        },
+        "SFMC2Slack": {
+            "suffix": "_SFMC2Slack"
+        },
+        "United_Kingdom": {
+            "suffix": "_United_Kingdom"
+        }
+    },
+    "marketList": {
+        "deployment-source": {
+            "description": "Define one 1:1 BU-Market combo here to as source for automated creation of deployment packages; you can create more than one source market list",
+            "AccentureLearningInstance/???": "???"
+        },
+        "deployment-target": {
+            "description": "Define n BU-Market combo here to as target for automated creation of deployment packages; you can create more than one target market list and they can be as complex as you like",
+            "AccentureLearningInstance/Best_Practice_internal_Demo": "Best_Practice_internal_Demo",
+            "AccentureLearningInstance/Bogdan_Enache": "Bogdan_Enache",
+            "AccentureLearningInstance/Certification_Training": "Certification_Training",
+            "AccentureLearningInstance/Development_BU_Global_Templates": "Development_BU_Global_Templates",
+            "AccentureLearningInstance/Email_Testing_BU": "Email_Testing_BU",
+            "AccentureLearningInstance/Italy": "Italy",
+            "AccentureLearningInstance/MCDEV_Demo_BUILD": "MCDEV_Demo_BUILD",
+            "AccentureLearningInstance/MCDEV_Demo_Netherlands": "MCDEV_Demo_Netherlands",
+            "AccentureLearningInstance/MCDEV_Demo_TEST": "MCDEV_Demo_TEST",
+            "AccentureLearningInstance/MCDEV_asset_demo_source": "MCDEV_asset_demo_source",
+            "AccentureLearningInstance/MCDEV_Training_DEV": "MCDEV_Training_DEV",
+            "AccentureLearningInstance/MCDEV_Training_Prod_1": "MCDEV_Training_Prod_1",
+            "AccentureLearningInstance/MCDEV_Training_Prod_2": "MCDEV_Training_Prod_2",
+            "AccentureLearningInstance/MCDEV_Training_QA": "MCDEV_Training_QA",
+            "AccentureLearningInstance/MCDEVDemo_France": "MCDEVDemo_France",
+            "AccentureLearningInstance/MCDEVDemo_Germany": "MCDEVDemo_Germany",
+            "AccentureLearningInstance/Recruiting_ASGR_parent_": "Recruiting_ASGR_parent_",
+            "AccentureLearningInstance/Retail_Test": "Retail_Test",
+            "AccentureLearningInstance/SFMC2Slack": "SFMC2Slack",
+            "AccentureLearningInstance/United_Kingdom": "United_Kingdom"
+        }
+    },
+    "metaDataTypes": {
+        "documentOnRetrieve": [
+            "accountUser",
+            "automation",
+            "dataExtension",
+            "role"
+        ],
+        "retrieve": [
+            "asset",
+            "automation",
+            "dataExtension",
+            "dataExtract",
+            "emailSendDefinition",
+            "eventDefinition",
+            "fileTransfer",
+            "ftpLocation",
+            "importFile",
+            "interaction",
+            "list",
+            "mobileCode",
+            "mobileKeyword",
+            "query",
+            "role",
+            "script",
+            "transactionalEmail",
+            "transactionalPush",
+            "transactionalSMS",
+            "triggeredSendDefinition"
+        ]
+    },
+    "version": "4.3.4"
+}
