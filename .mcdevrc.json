@@ -39,13 +39,53 @@
                     "MyProduction/PROD-DE",
                     "MyProduction/PROD-NL"
                 ]
+            },
+            "branchSourceTargetMapping": {
+                "sit": {
+                    "deployment-sit-source": "deployment-sit-target"
+                },
+                "uat": {
+                    "deployment-uat-source": "deployment-uat-target"
+                },
+                "prod": {
+                    "deployment-prod-source": "deployment-prod-target"
+                }
             }
         },
         "documentType": "md",
         "documentStandardRoles": false,
         "exclude": {},
         "include": {},
-        "serverTimeOffset": -6
+        "serverTimeOffset": -6,
+        "formatOnSave": true,
+        "formatErrorLog": false,
+        "validation": {
+            "retrieve": {
+                "noAmpscriptHtmlTag": "warn",
+                "noGuidKeys": "warn",
+                "noRootFolder": "warn"
+            },
+            "buildDefinition": {
+                "noAmpscriptHtmlTag": "warn",
+                "noGuidKeys": "warn",
+                "noRootFolder": "warn"
+            },
+            "deploy": {
+                "noAmpscriptHtmlTag": "warn",
+                "noGuidKeys": "warn",
+                "noRootFolder": "warn",
+                "overrides": [
+                    {
+                        "type": [
+                            "journey"
+                        ],
+                        "options": {
+                            "noGuidKeys": "warn"
+                        }
+                    }
+                ]
+            }
+        }
     },
     "directories": {
         "businessUnits": "businessUnits/",
@@ -154,33 +194,65 @@
     },
     "metaDataTypes": {
         "documentOnRetrieve": [
-            "accountUser",
+            "user",
             "automation",
             "dataExtension",
             "role"
         ],
         "retrieve": [
             "asset",
+            "attributeGroup",
+            "attributeSet",
             "automation",
             "dataExtension",
             "dataExtract",
-            "emailSendDefinition",
-            "eventDefinition",
+            "dataFilter",
+            "domainVerification",
+            "emailSend",
+            "event",
+            "fileLocation",
             "fileTransfer",
-            "ftpLocation",
+            "filter",
             "importFile",
-            "interaction",
+            "journey",
             "list",
             "mobileCode",
             "mobileKeyword",
+            "mobileMessage",
             "query",
             "role",
             "script",
+            "sendClassification",
+            "senderProfile",
             "transactionalEmail",
             "transactionalPush",
             "transactionalSMS",
-            "triggeredSendDefinition"
+            "verification"
+        ],
+        "createDeltaPkg": [
+            "asset",
+            "automation",
+            "dataExtension",
+            "dataExtract",
+            "dataFilter",
+            "domainVerification",
+            "emailSend",
+            "event",
+            "fileTransfer",
+            "filter",
+            "importFile",
+            "journey",
+            "mobileCode",
+            "mobileKeyword",
+            "mobileMessage",
+            "query",
+            "script",
+            "sendClassification",
+            "senderProfile",
+            "transactionalPush",
+            "transactionalSMS",
+            "verification"
         ]
     },
-    "version": "4.3.4"
+    "version": "9.0.3"
 }
