@@ -1,0 +1,20 @@
+{
+    "CustomerKey": "Customer_Messages_MARKET_DEV",
+    "Name": "Customer_Messages_MARKET_DEV",
+    "Description": "Customer Messages for all markets - DEV",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "Message_ID",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions",
+    "c__retentionPolicy": "none"
+}

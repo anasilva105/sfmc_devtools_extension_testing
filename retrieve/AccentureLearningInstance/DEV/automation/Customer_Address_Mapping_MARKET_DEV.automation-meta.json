@@ -1,0 +1,38 @@
+{
+    "name": "Customer_Address_Mapping_MARKET_DEV",
+    "description": "",
+    "key": "Customer_Address_Mapping_MARKET_DEV",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "startDate": "2026-05-10T10:45:00",
+        "endDate": "2026-05-10T10:45:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "W. Europe Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "Customer_Address_Query_MARKET_DEV"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "script",
+                    "r__key": "Customer_Address_Script_MARKET_DEV"
+                }
+            ]
+        }
+    ],
+    "createdName": "mcdev - ana.i.silva app user",
+    "createdDate": "2026-05-06T10:37:25.037Z",
+    "modifiedName": "mcdev - ana.i.silva app user",
+    "modifiedDate": "2026-05-08T08:30:49.127Z",
+    "r__folder_Path": "my automations"
+}
